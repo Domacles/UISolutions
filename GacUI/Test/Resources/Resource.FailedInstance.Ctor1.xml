@@ -1,0 +1,35 @@
+<Resource>
+  <Instance name="i1">
+    <Instance ref.Styles="Wrong Path">
+      <Unknown/>
+    </Instance>
+  </Instance>
+  
+  <Instance name="i2">
+    <Instance ref.Class="MainWindow" ref.Styles="res://NotExists">
+      <ref.Parameter Name="WrongClassName" Class="[]"/>
+      <ref.Members>
+        <![CDATA[
+          Syntax Error
+        ]]>
+      </ref.Members>
+      <ref.Ctor>
+        <![CDATA[
+          Syntax Error
+        ]]>
+      </ref.Ctor>
+      <ref.Dtor>
+        <![CDATA[
+          Syntax Error
+        ]]>
+      </ref.Dtor>
+      <Window/>
+    </Instance>
+  </Instance>
+
+  <Instance name="i3">
+    <Instance ref.Class="InferType">
+      <_/>
+    </Instance>
+  </Instance>
+</Resource>
