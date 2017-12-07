@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Alignment", "Alignment\Alignment.vcxproj", "{5250F07C-55C7-45F6-91E0-438792FB28DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{31A1319F-F666-4586-940C-7A05E56C9A59}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GacUILite", "..\Lib\GacUILite\GacUILite.vcxproj", "{96C559CA-9718-4BEC-A053-28A0AB6A8CA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{29B382EC-47FE-4514-89E1-20DAAB2129A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Table", "Table\Table.vcxproj", "{EB722167-66B6-4F11-809F-2B20FF2357FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flow", "Flow\Flow.vcxproj", "{FAFF902E-3CB1-4898-A613-3B47869BB38F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RichTextEmbedding", "RichTextEmbedding\RichTextEmbedding.vcxproj", "{A586B9AF-3C54-4353-9214-F15182C4BFB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TableSplitter", "TableSplitter\TableSplitter.vcxproj", "{B286F8B7-04DF-4850-9479-3A5F3D3C2554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5250F07C-55C7-45F6-91E0-438792FB28DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5250F07C-55C7-45F6-91E0-438792FB28DC}.Debug|Win32.Build.0 = Debug|Win32
+		{5250F07C-55C7-45F6-91E0-438792FB28DC}.Release|Win32.ActiveCfg = Release|Win32
+		{5250F07C-55C7-45F6-91E0-438792FB28DC}.Release|Win32.Build.0 = Release|Win32
+		{96C559CA-9718-4BEC-A053-28A0AB6A8CA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96C559CA-9718-4BEC-A053-28A0AB6A8CA2}.Debug|Win32.Build.0 = Debug|Win32
+		{96C559CA-9718-4BEC-A053-28A0AB6A8CA2}.Release|Win32.ActiveCfg = Release|Win32
+		{96C559CA-9718-4BEC-A053-28A0AB6A8CA2}.Release|Win32.Build.0 = Release|Win32
+		{29B382EC-47FE-4514-89E1-20DAAB2129A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29B382EC-47FE-4514-89E1-20DAAB2129A3}.Debug|Win32.Build.0 = Debug|Win32
+		{29B382EC-47FE-4514-89E1-20DAAB2129A3}.Release|Win32.ActiveCfg = Release|Win32
+		{29B382EC-47FE-4514-89E1-20DAAB2129A3}.Release|Win32.Build.0 = Release|Win32
+		{EB722167-66B6-4F11-809F-2B20FF2357FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB722167-66B6-4F11-809F-2B20FF2357FC}.Debug|Win32.Build.0 = Debug|Win32
+		{EB722167-66B6-4F11-809F-2B20FF2357FC}.Release|Win32.ActiveCfg = Release|Win32
+		{EB722167-66B6-4F11-809F-2B20FF2357FC}.Release|Win32.Build.0 = Release|Win32
+		{FAFF902E-3CB1-4898-A613-3B47869BB38F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAFF902E-3CB1-4898-A613-3B47869BB38F}.Debug|Win32.Build.0 = Debug|Win32
+		{FAFF902E-3CB1-4898-A613-3B47869BB38F}.Release|Win32.ActiveCfg = Release|Win32
+		{FAFF902E-3CB1-4898-A613-3B47869BB38F}.Release|Win32.Build.0 = Release|Win32
+		{A586B9AF-3C54-4353-9214-F15182C4BFB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A586B9AF-3C54-4353-9214-F15182C4BFB8}.Debug|Win32.Build.0 = Debug|Win32
+		{A586B9AF-3C54-4353-9214-F15182C4BFB8}.Release|Win32.ActiveCfg = Release|Win32
+		{A586B9AF-3C54-4353-9214-F15182C4BFB8}.Release|Win32.Build.0 = Release|Win32
+		{B286F8B7-04DF-4850-9479-3A5F3D3C2554}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B286F8B7-04DF-4850-9479-3A5F3D3C2554}.Debug|Win32.Build.0 = Debug|Win32
+		{B286F8B7-04DF-4850-9479-3A5F3D3C2554}.Release|Win32.ActiveCfg = Release|Win32
+		{B286F8B7-04DF-4850-9479-3A5F3D3C2554}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96C559CA-9718-4BEC-A053-28A0AB6A8CA2} = {31A1319F-F666-4586-940C-7A05E56C9A59}
+	EndGlobalSection
+EndGlobal
